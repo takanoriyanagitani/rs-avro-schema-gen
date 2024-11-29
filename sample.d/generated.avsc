@@ -1,0 +1,39 @@
+{
+  "name": "sample_schema",
+  "type": "record",
+  "namespace": null,
+  "fields": [
+    {
+      "name": "body",
+      "type": "string"
+    },
+    {
+      "name": "dummy",
+      "type": "boolean"
+    },
+    {
+      "name": "height",
+      "type": "double"
+    },
+    {
+      "name": "service_name",
+      "type": "string"
+    },
+    {
+      "name": "service_version",
+      "type": "string"
+    },
+    {
+      "name": "severity",
+      "type": "string"
+    },
+    {
+      "name": "speed",
+      "type": "long"
+    },
+    {
+      "name": "time",
+      "type": "string"
+    }
+  ]
+}

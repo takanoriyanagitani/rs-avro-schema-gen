@@ -1,0 +1,10 @@
+{
+	"time": "2024-11-29T02:29:12.123Z",
+	"severity": "WARN",
+	"body": "disk usage: 50%",
+	"service_name": "sample log service",
+	"service_version": "24.11.29",
+	"speed": 299792458,
+	"height": 3.776,
+	"dummy": true
+}

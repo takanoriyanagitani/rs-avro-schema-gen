@@ -1,0 +1,34 @@
+name = 'sample_schema'
+type = 'record'
+
+[[fields]]
+  name = 'body'
+  type = 'string'
+
+[[fields]]
+  name = 'dummy'
+  type = 'boolean'
+
+[[fields]]
+  name = 'height'
+  type = 'double'
+
+[[fields]]
+  name = 'service_name'
+  type = 'string'
+
+[[fields]]
+  name = 'service_version'
+  type = 'string'
+
+[[fields]]
+  name = 'severity'
+  type = 'string'
+
+[[fields]]
+  name = 'speed'
+  type = 'long'
+
+[[fields]]
+  name = 'time'
+  type = 'string'
