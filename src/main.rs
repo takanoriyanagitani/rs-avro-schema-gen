@@ -14,7 +14,10 @@ use rs_avro_schema_gen::record::flat::json_sample_bytes2schema;
 use rs_avro_schema_gen::app::json2flat::json_sample_bytes2flat_schema2writer;
 
 pub fn get_env_by_key(key: String) -> impl FnMut() -> Result<String, io::Error> {
-    move || env::var(key.as_str()).map_err(io::Error::other)
+    move || {
+        env::var(key.as_str())
+            .map_err(|e| io::Error::other(format!("env var for key {key} missing: {e}")))
+    }
 }
 
 pub fn get_env_opt_by_key(key: String) -> impl FnMut() -> Result<Option<String>, io::Error> {
