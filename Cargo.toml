@@ -3,6 +3,22 @@ name = "rs-avro-schema-gen"
 version = "0.1.0"
 edition = "2021"
 
+description = "Generates simple AVSC from input JSON"
+license = "Apache-2.0"
+documentation = "https://docs.rs/crate/rs-avro-schema-gen/latest"
+repository = "https://github.com/takanoriyanagitani/rs-avro-schema-gen"
+keywords = [
+    "avro",
+	"avsc",
+	"schema",
+	"json",
+	"cli",
+]
+categories = [
+    "command-line-interface",
+    "command-line-utilities",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
